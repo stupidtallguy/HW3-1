@@ -1,0 +1,48 @@
+/*SalarRahnama - 40131850 - Cplab HW3*/
+*{
+    margin: 0px;
+}
+html{
+    height: 100%;
+    /*#0046ae , #9198e5*/
+}
+body{
+    background-image: linear-gradient(#0046ae, #9198e5);
+    
+}
+
+li
+{
+    display: inline-block;
+    /*margin : 0px auto;*/
+    margin-top: 15px;
+    margin-left: 10px;
+}
+button
+{
+    border-color: #ffffff;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+button:hover
+{
+    border-color: #bebebe;
+}
+.mainpart
+{
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    background-image: linear-gradient(rgba(171, 179, 192, 0.694), rgba(220, 234, 248, 0.674));
+    height: 400px;
+    width: 270px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px #2e2e2e;
+}
+.mainpart:hover
+{
+    background-image: linear-gradient(rgba(171, 179, 192, 0.796), rgba(220, 234, 248, 0.792));  
+    transition: 0.5s;
+}
