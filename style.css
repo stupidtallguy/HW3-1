@@ -46,6 +46,19 @@ button:hover
     background-image: linear-gradient(rgba(171, 179, 192, 0.796), rgba(220, 234, 248, 0.792));  
     transition: 0.5s;
 }
+img
+{
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+}
+img:hover
+{
+    box-shadow: 2px 2px 8px #2e2e2e;
+    transition: 0.5s;
+}
 p
 {
     margin: 50px;
@@ -67,4 +80,21 @@ p
     color: #2e2e2e;
     cursor: pointer;
     transition: 0.2s;
+}
+input
+{
+    width: 250px;
+}
+
+.Timepart
+{
+    text-align: left;
+    text-shadow: none;
+}
+
+
+ul
+{
+    padding-right: 40px;
+
 }
