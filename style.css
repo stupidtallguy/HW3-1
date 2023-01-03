@@ -46,3 +46,19 @@ button:hover
     background-image: linear-gradient(rgba(171, 179, 192, 0.796), rgba(220, 234, 248, 0.792));  
     transition: 0.5s;
 }
+input
+{
+    width: 250px;
+}
+
+.Timepart
+{
+    text-align: left;
+    text-shadow: none;
+}
+
+
+ul
+{
+    padding-right: 40px;
+}
