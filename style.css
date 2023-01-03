@@ -46,7 +46,6 @@ button:hover
     background-image: linear-gradient(rgba(171, 179, 192, 0.796), rgba(220, 234, 248, 0.792));  
     transition: 0.5s;
 }
-
 img
 {
     margin: auto;
@@ -59,7 +58,29 @@ img:hover
 {
     box-shadow: 2px 2px 8px #2e2e2e;
     transition: 0.5s;
-
+}
+p
+{
+    margin: 50px;
+    padding: 10px;
+    color: white;
+    text-shadow: 2px 2px 8px #2e2e2e;
+    font-family: 'Franklin Gothic Medium';
+    display: contents;
+}
+.Name
+{
+    color: #666666;
+    font-family: 'Franklin Gothic Medium';
+    font-size: smaller;
+    display: contents;
+}
+.Name:hover
+{
+    color: #2e2e2e;
+    cursor: pointer;
+    transition: 0.2s;
+}
 input
 {
     width: 250px;
