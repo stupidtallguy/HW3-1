@@ -46,3 +46,16 @@ button:hover
     background-image: linear-gradient(rgba(171, 179, 192, 0.796), rgba(220, 234, 248, 0.792));  
     transition: 0.5s;
 }
+img
+{
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+}
+img:hover
+{
+    box-shadow: 2px 2px 8px #2e2e2e;
+    transition: 0.5s;
+}
